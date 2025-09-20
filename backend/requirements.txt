@@ -1,0 +1,12 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+supabase==2.3.4
+pydantic==2.5.3
+python-dotenv==1.0.0
+httpx==0.26.0
+google-api-python-client==2.114.0
+instagrapi==2.0.0
+celery==5.3.4
+redis==5.0.1
+openpyxl==3.1.2
+pandas==2.1.4
