@@ -6,10 +6,9 @@ load_dotenv()
 
 
 class Settings(BaseSettings):
-    # Supabase
-    supabase_url: str = os.getenv("SUPABASE_URL")
-    supabase_key: str = os.getenv("SUPABASE_KEY")
-    supabase_service_key: str = os.getenv("SUPABASE_SERVICE_KEY")
+    # Supabase (используем service key на сервере)
+    supabase_url: str = os.getenv("SUPABASE_URL", "")
+    supabase_key: str = os.getenv("SUPABASE_KEY", "")  # важное: service key!
 
     # YouTube
     youtube_api_key: str = os.getenv("YOUTUBE_API_KEY")
