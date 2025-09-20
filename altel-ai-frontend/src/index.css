@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* опционально: мелкая полировка */
+:root { color-scheme: light; }
