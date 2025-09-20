@@ -1,10 +1,43 @@
-fastapi==0.110.0
-uvicorn[standard]==0.29.0
-supabase==2.4.0
-pydantic==2.7.1
-pydantic-settings==2.2.1
-python-dotenv==1.0.1
-httpx==0.27.0
-google-api-python-client==2.130.0
+# requirements.txt
+
+# FastAPI и основные зависимости
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# База данных
+supabase==2.3.3
+postgrest==0.13.0
+gotrue==2.0.0
+realtime==1.0.2
+storage3==0.7.0
+
+# YouTube парсинг
+google-api-python-client==2.111.0
+google-auth==2.25.2
+google-auth-httplib2==0.2.0
+
+# Instagram парсинг
+instaloader==4.10.3
+
+# HTTP клиенты
+httpx==0.25.2
+requests==2.31.0
+
+# Утилиты
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# ML зависимости (для будущей интеграции)
+numpy==1.26.2
+pandas==2.1.4
+
+# Async support
+aiofiles==23.2.1
+asyncio==3.4.3
+
+# CORS и безопасность
+python-multipart==0.0.6
 openpyxl==3.1.2
-pandas==2.2.2

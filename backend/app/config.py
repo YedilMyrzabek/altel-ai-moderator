@@ -16,7 +16,9 @@ class Settings(BaseSettings):
     # Instagram
     instagram_username: str = os.getenv("INSTAGRAM_USERNAME", "")
     instagram_password: str = os.getenv("INSTAGRAM_PASSWORD", "")
-
+    instagram_session_file: str = os.getenv("INSTAGRAM_SESSION_FILE", "")
+    instagram_min_delay: int = 5
+    instagram_max_requests_per_hour: int = 50
     # ML Service
     ml_service_url: str = "http://localhost:5000"
 
